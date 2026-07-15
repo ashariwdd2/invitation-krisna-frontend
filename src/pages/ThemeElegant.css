@@ -34,7 +34,9 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* opsional, efek parallax */
+  background-attachment: scroll; /* ganti fixed */
+
+  position: relative;
 }
 
 .quote-section {
