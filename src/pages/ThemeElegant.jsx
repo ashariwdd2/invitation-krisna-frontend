@@ -221,8 +221,12 @@ const ThemeElegant = ({ config, onRsvpSubmit, rsvps = [] }) => {
 
           {/* Events */}
           <section className="details-section">
-            <h2 className="section-heading" data-aos="fade-up">Rangkaian Acara</h2>
-            <p className="opening-p" style={{ marginBottom: '40px' }} data-aos="fade-up">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, insyaAllah kami akan menyelenggarakan acara:</p>
+            <h2 className="section-heading-maroon" data-aos="fade-up">Rangkaian Acara</h2>
+            <p className="opening-p" style={{
+  margin: '0 auto 30px',
+  maxWidth: '800px',
+  textAlign: 'center', color:'#000'
+}} data-aos="fade-up">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, insyaAllah kami akan menyelenggarakan acara:</p>
             <div className="events-grid">
               <div className="event-card" data-aos="fade-right">
                 <div className="event-icon"><Calendar size={48} /></div>
@@ -251,9 +255,14 @@ const ThemeElegant = ({ config, onRsvpSubmit, rsvps = [] }) => {
           </section>
 
           {/* Love Gift */}
-          <section className="gift-section" style={{ paddingTop: 0 }}>
+          <section className="gift-section" style={{ paddingTop: 100 }}>
             <h2 className="section-heading" data-aos="fade-up">Love Gift</h2>
-            <p className="opening-p" style={{ marginBottom: '30px' }} data-aos="fade-up">Dengan hormat, bagi Anda yang ingin memberikan tanda kasih kepada kami, dapat melalui:</p>
+            <p className="opening-p" style={{
+                                        margin: '0 auto 30px',
+                                        maxWidth: '800px',
+                                        textAlign: 'center'
+                                      }}
+            data-aos="fade-up">Dengan hormat, bagi Anda yang ingin memberikan tanda kasih kepada kami, dapat melalui:</p>
             
             <div data-aos="zoom-in-up" style={{ background: 'var(--landing-glass)', padding: '40px', borderRadius: '20px', border: '1px solid var(--landing-border)', maxWidth: '600px', margin: '0 auto' }}>
               <div style={{ marginBottom: '24px' }}>
@@ -271,7 +280,7 @@ const ThemeElegant = ({ config, onRsvpSubmit, rsvps = [] }) => {
 
           {/* RSVP Form */}
           <section className="rsvp-section" id="rsvp">
-            <h2 className="section-heading" data-aos="fade-up">Ucapan & Doa Restu</h2>
+            <h2 className="section-heading-maroon" data-aos="fade-up">Ucapan & Doa Restu</h2>
             <form className="rsvp-form" onSubmit={handleSubmit} data-aos="fade-up" data-aos-delay="200">
               <p style={{ marginBottom: '20px', color: 'var(--landing-gold-light)' }}>
                 Kehadiran dan doa restu Anda menjadi kebahagiaan serta kehormatan besar bagi kami.
@@ -373,12 +382,12 @@ const ThemeElegant = ({ config, onRsvpSubmit, rsvps = [] }) => {
           </section>
 
           {/* Footer */}
-          <footer style={{ padding: '60px 20px 120px', textAlign: 'center', background: '#0a0a0a', borderTop: '1px solid var(--landing-border)' }}>
+          <footer style={{ padding: '60px 20px 120px', textAlign: 'center', background: '#340505', borderTop: '1px solid var(--landing-border)' }}>
             <p className="salam-text" style={{ fontSize: '1.2rem', margin: '0 0 10px 0' }}>Wassalamualaikum Warahmatullahi Wabarakatuh</p>
             <h2 className="arabic-bismillah" style={{ fontSize: '1.8rem', marginBottom: '30px' }}>اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ</h2>
             <Heart size={24} color="var(--landing-gold)" style={{ margin: '0 auto 16px' }} />
             <h3 style={{ fontFamily: '"Cinzel", serif', color: 'var(--landing-gold-light)' }}>{config.couple_names}</h3>
-            <p style={{ marginTop: '10px', fontSize: '0.9rem', color: '#666' }}>Design Inspired by Uleman Digital Template</p>
+            <p style={{ marginTop: '10px', fontSize: '0.9rem', color: '#666' }}>Design by Syuzhet</p>
           </footer>
           
           <BottomNavbar themeMode="elegant" />

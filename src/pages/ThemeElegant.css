@@ -24,28 +24,103 @@
 
 
 .couples-section {
-  background: #d3c0a5;
+  background:
+    linear-gradient(
+      rgba(246, 209, 145, 0.7),
+      rgba(59, 15, 20, 0.7)
+    ),
+    url('/assets/cream.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
 }
 
 .quote-section {
-  background: #3B0F14;
+  background:
+    linear-gradient(
+      rgba(59, 15, 20, 0.7),
+      rgba(59, 15, 20, 0.7)
+    ),
+    url('/assets/maroon.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
+}
+
+.islamic-opening {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(65, 5, 12, 0.7)
+    ),
+    url('/assets/maroon.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
 }
 
 .countdown-section {
-  background: #3B0F14;
+  background:
+    linear-gradient(
+      rgba(59, 15, 20, 0.7),
+      rgba(59, 15, 20, 0.7)
+    ),
+    url('/assets/maroon.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
 }
 
 .details-section {
-  background: #d3c0a5;
+  background:
+    linear-gradient(
+      rgba(246, 209, 145, 0.7),
+      rgba(59, 15, 20, 0.7)
+    ),
+    url('/assets/cream.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
 }
 
 .gift-section {
-  background: #3B0F14;
+  padding: 100px 20px;
+  background:
+    linear-gradient(
+      rgba(59, 15, 20, 0.7),
+      rgba(59, 15, 20, 0.7)
+    ),
+    url('/assets/maroon.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
 }
 
 .rsvp-section {
   padding: 100px 20px;
-  background: #d3c0a5;
+  background:
+    linear-gradient(
+      rgba(246, 209, 145, 0.7),
+      rgba(59, 15, 20, 0.7)
+    ),
+    url('/assets/cream.jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
   text-align: center;
   display: block;
   width: 100%;
@@ -54,7 +129,17 @@
 
 .gallery-section {
   padding: 100px 20px;
-  background: linear-gradient(to bottom, transparent, #3B0F14, transparent);
+  background:
+    linear-gradient(
+      rgba(59, 15, 20, 0.7),
+      rgba(59, 15, 20, 0.7)
+    ),
+    url('/assets/maroon.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* opsional, efek parallax */
   text-align: center;
   display: block;
   width: 100%;
@@ -185,20 +270,21 @@
   clear: both;
 }
 
-.gift-section {
-  padding: 100px 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-  display: block;
-  width: 100%;
-  clear: both;
-}
-
 .section-heading {
   text-align: center;
   font-family: 'Cinzel', serif;
   font-size: 2.5rem;
   color: var(--landing-gold);
+  margin-bottom: 60px;
+  position: relative;
+  display: block;
+}
+
+.section-heading-maroon {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 2.5rem;
+  color: var(--landing-maroon);
   margin-bottom: 60px;
   position: relative;
   display: block;
@@ -496,7 +582,7 @@
 .couple-name-title {
   font-family: 'Cinzel', serif;
   font-size: 2rem;
-  color: var(--landing-gold);
+  color: var(--landing-gold-light);
   margin-bottom: 10px;
 }
 
