@@ -102,12 +102,13 @@ const ThemeElegant = ({ config, onRsvpSubmit, rsvps = [] }) => {
   const bride = coupleNamesArr[1] || 'Mempelai Wanita';
 
   const galleryImages = [
-  "/assets/gallery1.jpg",
-  "/assets/gallery2.jpg",
-  "/assets/gallery3.jpg",
-  "/assets/gallery4.jpg",
-  "/assets/gallery5.jpg",
-  "/assets/gallery6.jpg",
+  "/assets/gallery1.jpeg",
+  "/assets/gallery2.jpeg",
+  "/assets/gallery3.jpeg",
+  "/assets/gallery4.jpeg",
+  "/assets/gallery5.jpeg",
+  "/assets/gallery6.jpeg",
+  "/assets/gallery7.jpeg",
 ];
 
   return (
